@@ -1,6 +1,6 @@
 # npmtest-kareem
 
-#### basic test coverage for  kareem (v1.4.0)  [![npm package](https://img.shields.io/npm/v/npmtest-kareem.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-kareem) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-kareem.svg)](https://travis-ci.org/npmtest/node-npmtest-kareem)
+#### basic test coverage for  [kareem (v1.4.0)](https://github.com/vkarpov15/kareem#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-kareem.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-kareem) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-kareem.svg)](https://travis-ci.org/npmtest/node-npmtest-kareem)
 
 #### Next-generation take on pre/post function hooks
 
@@ -35,34 +35,54 @@
 ```json
 
 {
-    "name": "kareem",
-    "version": "1.4.0",
+    "author": {
+        "name": "Valeri Karpov"
+    },
+    "bugs": {
+        "url": "https://github.com/vkarpov15/kareem/issues"
+    },
+    "dependencies": {},
     "description": "Next-generation take on pre/post function hooks",
-    "main": "index.js",
-    "scripts": {
-        "test": "./node_modules/mocha/bin/mocha ./test/*",
-        "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/vkarpov15/kareem.git"
-    },
     "devDependencies": {
         "acquit": "0.4.1",
         "gulp": "3.8.10",
-        "gulp-mocha": "2.0.0",
         "gulp-jscs": "1.4.0",
+        "gulp-mocha": "2.0.0",
         "istanbul": "0.4.5",
         "jscs": "1.9.0",
         "mocha": "3.2.0"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "640285bc0174f10d4bf2127bb30e861bc0372c1c",
+        "tarball": "https://registry.npmjs.org/kareem/-/kareem-1.4.0.tgz"
+    },
+    "gitHead": "101c5f58597c6799289b943114179d1a12288215",
+    "homepage": "https://github.com/vkarpov15/kareem#readme",
     "jscsConfig": {
         "preset": "airbnb",
         "requireMultipleVarDecl": null,
         "disallowMultipleVarDecl": true
     },
-    "author": "Valeri Karpov <val@karpov.io>",
-    "license": "Apache 2.0"
+    "license": "Apache 2.0",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "vkarpov15"
+        }
+    ],
+    "name": "kareem",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vkarpov15/kareem.git"
+    },
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha ./test/*",
+        "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+    },
+    "version": "1.4.0",
+    "bin": {}
 }
 ```
 
